@@ -1,0 +1,23 @@
+{
+  "name": "playwright-automation-tests",
+  "version": "1.0.0",
+  "description": "Playwright automation tests with Page Object Model pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": ["playwright", "testing", "automation", "pom"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.3.1",
+    "dotenv": "^16.4.7"
+  }
+}

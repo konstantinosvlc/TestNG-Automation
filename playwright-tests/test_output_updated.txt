@@ -1,0 +1,362 @@
+
+Running 5 tests using 1 worker
+
+[2026-03-01T19:58:55.795Z] [INFO] ================================================================================
+[2026-03-01T19:58:55.798Z] [INFO] Test execution started
+[2026-03-01T19:58:55.798Z] [INFO] Email: Jimmie42@gmail.com
+[2026-03-01T19:58:55.799Z] [INFO] Password: g8OjKYbqwr37
+[2026-03-01T19:58:55.799Z] [INFO] ================================================================================
+[2026-03-01T19:58:59.257Z] [INFO] Navigated to: https://awesomeqa.com/ui/
+[2026-03-01T19:58:59.258Z] [INFO] Test: Get Base URL
+[2026-03-01T19:58:59.259Z] [INFO] Current URL: https://awesomeqa.com/ui/
+[2026-03-01T19:58:59.260Z] [INFO] Current URL is: https://awesomeqa.com/ui/
+[2026-03-01T19:58:59.264Z] [INFO] ================================================================================
+[2026-03-01T19:58:59.266Z] [INFO] Test execution completed
+[2026-03-01T19:58:59.267Z] [INFO] ================================================================================
+  ✓  1 [chromium] › tests\e2e.spec.js:60:3 › E2E Automation Tests - Registration, Login, Add to Cart, Checkout › 01. Get Base URL (3.9s)
+[2026-03-01T19:58:59.655Z] [INFO] ================================================================================
+[2026-03-01T19:58:59.656Z] [INFO] Test execution started
+[2026-03-01T19:58:59.656Z] [INFO] Email: Cortez51@gmail.com
+[2026-03-01T19:58:59.657Z] [INFO] Password: VbUo3pEqwmAM
+[2026-03-01T19:58:59.657Z] [INFO] ================================================================================
+[2026-03-01T19:59:02.583Z] [INFO] Navigated to: https://awesomeqa.com/ui/
+[2026-03-01T19:59:02.588Z] [INFO] Test: User Registration and Login
+[2026-03-01T19:59:02.590Z] [INFO] Starting registration process for Cortez51@gmail.com
+[2026-03-01T19:59:02.592Z] [INFO] Clicking element: .caret
+[2026-03-01T19:59:02.805Z] [INFO] Clicked profile dropdown
+[2026-03-01T19:59:02.806Z] [INFO] Clicking element: a:has-text("Register")
+[2026-03-01T19:59:03.157Z] [INFO] Clicked register link
+[2026-03-01T19:59:03.158Z] [INFO] Filling element #input-firstname with text: Random...
+[2026-03-01T19:59:03.518Z] [INFO] Filling element #input-lastname with text: Guy...
+[2026-03-01T19:59:03.538Z] [INFO] Filling element #input-email with text: Cortez51@gmail.com...
+[2026-03-01T19:59:03.561Z] [INFO] Filling element #input-telephone with text: 790.256.8466...
+[2026-03-01T19:59:03.584Z] [INFO] Filling element #input-password with text: VbUo3pEqwmAM...
+[2026-03-01T19:59:03.605Z] [INFO] Filling element #input-confirm with text: VbUo3pEqwmAM...
+[2026-03-01T19:59:03.622Z] [INFO] Clicking element: input[name="agree"]
+[2026-03-01T19:59:03.700Z] [INFO] Accepted terms and conditions
+[2026-03-01T19:59:03.701Z] [INFO] Clicking element: //input[@value="Continue"]
+[2026-03-01T19:59:04.372Z] [INFO] Clicked continue button on registration form
+[2026-03-01T19:59:04.374Z] [INFO] Sleeping for 500ms
+[2026-03-01T19:59:04.881Z] [INFO] Clicking element: a:has-text("Continue")
+[2026-03-01T19:59:05.309Z] [INFO] Clicked continue link on registration success page
+[2026-03-01T19:59:05.311Z] [INFO] Registration completed for Cortez51@gmail.com
+[2026-03-01T19:59:05.314Z] [INFO] Starting logout process
+[2026-03-01T19:59:05.316Z] [INFO] Clicking element: //div[@id="top-links"]/ul/li[2]/a/span
+[2026-03-01T19:59:05.440Z] [INFO] Clicked user menu dropdown
+[2026-03-01T19:59:05.441Z] [INFO] Clicking element: a:has-text("Logout")
+[2026-03-01T19:59:06.035Z] [INFO] Clicked logout link
+[2026-03-01T19:59:06.036Z] [INFO] Logout completed
+[2026-03-01T19:59:06.038Z] [INFO] User logged out successfully
+[2026-03-01T19:59:06.040Z] [INFO] Starting login process for Cortez51@gmail.com
+[2026-03-01T19:59:06.042Z] [INFO] Sleeping for 1000ms
+[2026-03-01T19:59:07.058Z] [INFO] Clicking element: .caret
+[2026-03-01T19:59:07.216Z] [INFO] Clicked profile dropdown
+[2026-03-01T19:59:07.217Z] [INFO] Clicking element: a:has-text("Login")
+[2026-03-01T19:59:07.551Z] [INFO] Clicked login link
+[2026-03-01T19:59:07.553Z] [INFO] Filling element #input-email with text: Cortez51@gmail.com...
+[2026-03-01T19:59:07.623Z] [INFO] Filling element #input-password with text: VbUo3pEqwmAM...
+[2026-03-01T19:59:07.639Z] [INFO] Sleeping for 200ms
+[2026-03-01T19:59:07.849Z] [INFO] Clicking element: input[value="Login"]
+[2026-03-01T19:59:08.475Z] [INFO] Clicked login button
+[2026-03-01T19:59:08.475Z] [INFO] Login completed for Cortez51@gmail.com
+[2026-03-01T19:59:08.476Z] [INFO] User logged in successfully
+[2026-03-01T19:59:08.478Z] [INFO] ================================================================================
+[2026-03-01T19:59:08.479Z] [INFO] Test execution completed
+[2026-03-01T19:59:08.480Z] [INFO] ================================================================================
+  ✓  2 [chromium] › tests\e2e.spec.js:67:3 › E2E Automation Tests - Registration, Login, Add to Cart, Checkout › 02. User Registration and Login (9.1s)
+[2026-03-01T19:59:08.839Z] [INFO] ================================================================================
+[2026-03-01T19:59:08.839Z] [INFO] Test execution started
+[2026-03-01T19:59:08.840Z] [INFO] Email: Cleo.Hahn40@hotmail.com
+[2026-03-01T19:59:08.840Z] [INFO] Password: CVdnJUYnRdYi
+[2026-03-01T19:59:08.841Z] [INFO] ================================================================================
+[2026-03-01T19:59:11.963Z] [INFO] Navigated to: https://awesomeqa.com/ui/
+[2026-03-01T19:59:11.965Z] [INFO] Test: Add to Cart
+[2026-03-01T19:59:11.967Z] [INFO] Starting registration process for Cleo.Hahn40@hotmail.com
+[2026-03-01T19:59:11.968Z] [INFO] Clicking element: .caret
+[2026-03-01T19:59:12.085Z] [INFO] Clicked profile dropdown
+[2026-03-01T19:59:12.086Z] [INFO] Clicking element: a:has-text("Register")
+[2026-03-01T19:59:12.411Z] [INFO] Clicked register link
+[2026-03-01T19:59:12.412Z] [INFO] Filling element #input-firstname with text: Random...
+[2026-03-01T19:59:12.769Z] [INFO] Filling element #input-lastname with text: Guy...
+[2026-03-01T19:59:12.784Z] [INFO] Filling element #input-email with text: Cleo.Hahn40@hotmail....
+[2026-03-01T19:59:12.801Z] [INFO] Filling element #input-telephone with text: 1-351-719-5108 x4205...
+[2026-03-01T19:59:12.814Z] [INFO] Filling element #input-password with text: CVdnJUYnRdYi...
+[2026-03-01T19:59:12.827Z] [INFO] Filling element #input-confirm with text: CVdnJUYnRdYi...
+[2026-03-01T19:59:12.841Z] [INFO] Clicking element: input[name="agree"]
+[2026-03-01T19:59:12.888Z] [INFO] Accepted terms and conditions
+[2026-03-01T19:59:12.888Z] [INFO] Clicking element: //input[@value="Continue"]
+[2026-03-01T19:59:13.543Z] [INFO] Clicked continue button on registration form
+[2026-03-01T19:59:13.544Z] [INFO] Sleeping for 500ms
+[2026-03-01T19:59:14.051Z] [INFO] Clicking element: a:has-text("Continue")
+[2026-03-01T19:59:14.384Z] [INFO] Clicked continue link on registration success page
+[2026-03-01T19:59:14.385Z] [INFO] Registration completed for Cleo.Hahn40@hotmail.com
+[2026-03-01T19:59:14.385Z] [INFO] Starting logout process
+[2026-03-01T19:59:14.386Z] [INFO] Clicking element: //div[@id="top-links"]/ul/li[2]/a/span
+[2026-03-01T19:59:14.473Z] [INFO] Clicked user menu dropdown
+[2026-03-01T19:59:14.473Z] [INFO] Clicking element: a:has-text("Logout")
+[2026-03-01T19:59:15.055Z] [INFO] Clicked logout link
+[2026-03-01T19:59:15.057Z] [INFO] Logout completed
+[2026-03-01T19:59:15.058Z] [INFO] Starting login process for Cleo.Hahn40@hotmail.com
+[2026-03-01T19:59:15.061Z] [INFO] Sleeping for 1000ms
+[2026-03-01T19:59:16.070Z] [INFO] Clicking element: .caret
+[2026-03-01T19:59:16.249Z] [INFO] Clicked profile dropdown
+[2026-03-01T19:59:16.250Z] [INFO] Clicking element: a:has-text("Login")
+[2026-03-01T19:59:16.622Z] [INFO] Clicked login link
+[2026-03-01T19:59:16.624Z] [INFO] Filling element #input-email with text: Cleo.Hahn40@hotmail....
+[2026-03-01T19:59:16.707Z] [INFO] Filling element #input-password with text: CVdnJUYnRdYi...
+[2026-03-01T19:59:16.725Z] [INFO] Sleeping for 200ms
+[2026-03-01T19:59:16.954Z] [INFO] Clicking element: input[value="Login"]
+[2026-03-01T19:59:17.530Z] [INFO] Clicked login button
+[2026-03-01T19:59:17.531Z] [INFO] Login completed for Cleo.Hahn40@hotmail.com
+[2026-03-01T19:59:17.533Z] [INFO] Searching for and adding iMac to cart
+[2026-03-01T19:59:17.534Z] [INFO] Searching for product: iMac
+[2026-03-01T19:59:17.534Z] [INFO] Filling element input[placeholder="Search"] with text: iMac...
+[2026-03-01T19:59:17.582Z] [INFO] Entered search term: iMac
+[2026-03-01T19:59:17.582Z] [INFO] Clicking element: button.btn.btn-default.btn-lg
+[2026-03-01T19:59:17.961Z] [INFO] Clicked search button
+[2026-03-01T19:59:17.962Z] [INFO] Search completed for: iMac
+[2026-03-01T19:59:17.964Z] [INFO] Clicking on first product in search results
+[2026-03-01T19:59:17.966Z] [INFO] Clicking element: div.caption h4 a
+[2026-03-01T19:59:18.425Z] [INFO] Clicked first product
+[2026-03-01T19:59:18.428Z] [INFO] Adding product to cart
+[2026-03-01T19:59:18.430Z] [INFO] Clicking element: #button-cart
+[2026-03-01T19:59:18.737Z] [INFO] Clicked add to cart button
+[2026-03-01T19:59:18.738Z] [INFO] Sleeping for 500ms
+[2026-03-01T19:59:19.242Z] [INFO] Product added to cart
+[2026-03-01T19:59:19.244Z] [INFO] iMac added to cart
+[2026-03-01T19:59:19.246Z] [INFO] Opening shopping cart
+[2026-03-01T19:59:19.247Z] [INFO] Clicking element: .btn.btn-inverse.btn-block.btn-lg.dropdown-toggle
+[2026-03-01T19:59:19.344Z] [INFO] Clicked cart dropdown
+[2026-03-01T19:59:19.345Z] [INFO] Clicking element: body > header:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1) > strong:nth-child(1)
+[2026-03-01T19:59:19.802Z] [INFO] Clicked view cart link
+[2026-03-01T19:59:19.803Z] [INFO] Cart opened
+[2026-03-01T19:59:19.806Z] [INFO] iMac successfully added to cart
+[2026-03-01T19:59:19.943Z] [INFO] Screenshot saved: ./test-results/screenshots/add-to-cart-1772395159808.png
+[2026-03-01T19:59:19.945Z] [INFO] ================================================================================
+[2026-03-01T19:59:19.945Z] [INFO] Test execution completed
+[2026-03-01T19:59:19.946Z] [INFO] ================================================================================
+  ✓  3 [chromium] › tests\e2e.spec.js:88:3 › E2E Automation Tests - Registration, Login, Add to Cart, Checkout › 03. Add to Cart (11.5s)
+[2026-03-01T19:59:20.343Z] [INFO] ================================================================================
+[2026-03-01T19:59:20.343Z] [INFO] Test execution started
+[2026-03-01T19:59:20.344Z] [INFO] Email: Dashawn39@yahoo.com
+[2026-03-01T19:59:20.344Z] [INFO] Password: RAJfFFioRVPX
+[2026-03-01T19:59:20.345Z] [INFO] ================================================================================
+[2026-03-01T19:59:22.927Z] [INFO] Navigated to: https://awesomeqa.com/ui/
+[2026-03-01T19:59:22.930Z] [INFO] Test: Complete Checkout Process
+[2026-03-01T19:59:22.932Z] [INFO] Starting registration process for Dashawn39@yahoo.com
+[2026-03-01T19:59:22.934Z] [INFO] Clicking element: .caret
+[2026-03-01T19:59:23.040Z] [INFO] Clicked profile dropdown
+[2026-03-01T19:59:23.041Z] [INFO] Clicking element: a:has-text("Register")
+[2026-03-01T19:59:23.378Z] [INFO] Clicked register link
+[2026-03-01T19:59:23.378Z] [INFO] Filling element #input-firstname with text: Random...
+[2026-03-01T19:59:23.828Z] [INFO] Filling element #input-lastname with text: Guy...
+[2026-03-01T19:59:23.848Z] [INFO] Filling element #input-email with text: Dashawn39@yahoo.com...
+[2026-03-01T19:59:23.869Z] [INFO] Filling element #input-telephone with text: (566) 823-5469 x935...
+[2026-03-01T19:59:23.889Z] [INFO] Filling element #input-password with text: RAJfFFioRVPX...
+[2026-03-01T19:59:23.910Z] [INFO] Filling element #input-confirm with text: RAJfFFioRVPX...
+[2026-03-01T19:59:23.928Z] [INFO] Clicking element: input[name="agree"]
+[2026-03-01T19:59:23.978Z] [INFO] Accepted terms and conditions
+[2026-03-01T19:59:23.979Z] [INFO] Clicking element: //input[@value="Continue"]
+[2026-03-01T19:59:24.691Z] [INFO] Clicked continue button on registration form
+[2026-03-01T19:59:24.693Z] [INFO] Sleeping for 500ms
+[2026-03-01T19:59:25.214Z] [INFO] Clicking element: a:has-text("Continue")
+[2026-03-01T19:59:25.659Z] [INFO] Clicked continue link on registration success page
+[2026-03-01T19:59:25.660Z] [INFO] Registration completed for Dashawn39@yahoo.com
+[2026-03-01T19:59:25.661Z] [INFO] Starting logout process
+[2026-03-01T19:59:25.662Z] [INFO] Clicking element: //div[@id="top-links"]/ul/li[2]/a/span
+[2026-03-01T19:59:25.737Z] [INFO] Clicked user menu dropdown
+[2026-03-01T19:59:25.737Z] [INFO] Clicking element: a:has-text("Logout")
+[2026-03-01T19:59:26.330Z] [INFO] Clicked logout link
+[2026-03-01T19:59:26.331Z] [INFO] Logout completed
+[2026-03-01T19:59:26.332Z] [INFO] Starting login process for Dashawn39@yahoo.com
+[2026-03-01T19:59:26.332Z] [INFO] Sleeping for 1000ms
+[2026-03-01T19:59:27.345Z] [INFO] Clicking element: .caret
+[2026-03-01T19:59:27.446Z] [INFO] Clicked profile dropdown
+[2026-03-01T19:59:27.447Z] [INFO] Clicking element: a:has-text("Login")
+[2026-03-01T19:59:27.768Z] [INFO] Clicked login link
+[2026-03-01T19:59:27.768Z] [INFO] Filling element #input-email with text: Dashawn39@yahoo.com...
+[2026-03-01T19:59:27.810Z] [INFO] Filling element #input-password with text: RAJfFFioRVPX...
+[2026-03-01T19:59:27.824Z] [INFO] Sleeping for 200ms
+[2026-03-01T19:59:28.031Z] [INFO] Clicking element: input[value="Login"]
+[2026-03-01T19:59:28.662Z] [INFO] Clicked login button
+[2026-03-01T19:59:28.663Z] [INFO] Login completed for Dashawn39@yahoo.com
+[2026-03-01T19:59:28.663Z] [INFO] Searching for and adding iMac to cart
+[2026-03-01T19:59:28.664Z] [INFO] Searching for product: iMac
+[2026-03-01T19:59:28.665Z] [INFO] Filling element input[placeholder="Search"] with text: iMac...
+[2026-03-01T19:59:28.707Z] [INFO] Entered search term: iMac
+[2026-03-01T19:59:28.708Z] [INFO] Clicking element: button.btn.btn-default.btn-lg
+[2026-03-01T19:59:29.083Z] [INFO] Clicked search button
+[2026-03-01T19:59:29.084Z] [INFO] Search completed for: iMac
+[2026-03-01T19:59:29.085Z] [INFO] Clicking on first product in search results
+[2026-03-01T19:59:29.085Z] [INFO] Clicking element: div.caption h4 a
+[2026-03-01T19:59:29.458Z] [INFO] Clicked first product
+[2026-03-01T19:59:29.459Z] [INFO] Adding product to cart
+[2026-03-01T19:59:29.459Z] [INFO] Clicking element: #button-cart
+[2026-03-01T19:59:29.869Z] [INFO] Clicked add to cart button
+[2026-03-01T19:59:29.869Z] [INFO] Sleeping for 500ms
+[2026-03-01T19:59:30.380Z] [INFO] Product added to cart
+[2026-03-01T19:59:30.381Z] [INFO] iMac added to cart
+[2026-03-01T19:59:30.382Z] [INFO] Opening shopping cart
+[2026-03-01T19:59:30.383Z] [INFO] Clicking element: .btn.btn-inverse.btn-block.btn-lg.dropdown-toggle
+[2026-03-01T19:59:30.453Z] [INFO] Clicked cart dropdown
+[2026-03-01T19:59:30.454Z] [INFO] Clicking element: body > header:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1) > strong:nth-child(1)
+[2026-03-01T19:59:30.859Z] [INFO] Clicked view cart link
+[2026-03-01T19:59:30.861Z] [INFO] Cart opened
+[2026-03-01T19:59:30.863Z] [INFO] Starting complete checkout process
+[2026-03-01T19:59:30.866Z] [INFO] Proceeding to checkout
+[2026-03-01T19:59:30.868Z] [INFO] Waiting for element to be clickable: a.btn.btn-primary (timeout: 2000ms)
+[2026-03-01T19:59:31.009Z] [INFO] Clicking element: a.btn.btn-primary
+[2026-03-01T19:59:31.621Z] [INFO] Clicked checkout button
+[2026-03-01T19:59:31.622Z] [INFO] Sleeping for 300ms
+[2026-03-01T19:59:31.943Z] [INFO] Filling payment details
+[2026-03-01T19:59:31.944Z] [INFO] Waiting for element to be clickable: #input-payment-firstname (timeout: 2000ms)
+[2026-03-01T19:59:34.037Z] [INFO] ================================================================================
+[2026-03-01T19:59:34.037Z] [INFO] Test execution completed
+[2026-03-01T19:59:34.038Z] [INFO] ================================================================================
+  ✘  4 [chromium] › tests\e2e.spec.js:116:3 › E2E Automation Tests - Registration, Login, Add to Cart, Checkout › 04. Complete Checkout Process (14.0s)
+[2026-03-01T19:59:36.636Z] [INFO] ================================================================================
+[2026-03-01T19:59:36.638Z] [INFO] Test execution started
+[2026-03-01T19:59:36.639Z] [INFO] Email: Dock26@yahoo.com
+[2026-03-01T19:59:36.639Z] [INFO] Password: ugp3P5JZxVyH
+[2026-03-01T19:59:36.640Z] [INFO] ================================================================================
+[2026-03-01T19:59:39.565Z] [INFO] Navigated to: https://awesomeqa.com/ui/
+[2026-03-01T19:59:39.566Z] [INFO] Test: Full User Journey
+[2026-03-01T19:59:39.567Z] [INFO] Starting registration process for Dock26@yahoo.com
+[2026-03-01T19:59:39.568Z] [INFO] Clicking element: .caret
+[2026-03-01T19:59:39.691Z] [INFO] Clicked profile dropdown
+[2026-03-01T19:59:39.692Z] [INFO] Clicking element: a:has-text("Register")
+[2026-03-01T19:59:40.031Z] [INFO] Clicked register link
+[2026-03-01T19:59:40.032Z] [INFO] Filling element #input-firstname with text: Random...
+[2026-03-01T19:59:40.384Z] [INFO] Filling element #input-lastname with text: Guy...
+[2026-03-01T19:59:40.403Z] [INFO] Filling element #input-email with text: Dock26@yahoo.com...
+[2026-03-01T19:59:40.421Z] [INFO] Filling element #input-telephone with text: 677-647-1289 x377...
+[2026-03-01T19:59:40.439Z] [INFO] Filling element #input-password with text: ugp3P5JZxVyH...
+[2026-03-01T19:59:40.458Z] [INFO] Filling element #input-confirm with text: ugp3P5JZxVyH...
+[2026-03-01T19:59:40.477Z] [INFO] Clicking element: input[name="agree"]
+[2026-03-01T19:59:40.525Z] [INFO] Accepted terms and conditions
+[2026-03-01T19:59:40.526Z] [INFO] Clicking element: //input[@value="Continue"]
+[2026-03-01T19:59:41.192Z] [INFO] Clicked continue button on registration form
+[2026-03-01T19:59:41.194Z] [INFO] Sleeping for 500ms
+[2026-03-01T19:59:41.708Z] [INFO] Clicking element: a:has-text("Continue")
+[2026-03-01T19:59:42.103Z] [INFO] Clicked continue link on registration success page
+[2026-03-01T19:59:42.104Z] [INFO] Registration completed for Dock26@yahoo.com
+[2026-03-01T19:59:42.104Z] [INFO] Starting logout process
+[2026-03-01T19:59:42.105Z] [INFO] Clicking element: //div[@id="top-links"]/ul/li[2]/a/span
+[2026-03-01T19:59:42.188Z] [INFO] Clicked user menu dropdown
+[2026-03-01T19:59:42.189Z] [INFO] Clicking element: a:has-text("Logout")
+[2026-03-01T19:59:42.763Z] [INFO] Clicked logout link
+[2026-03-01T19:59:42.764Z] [INFO] Logout completed
+[2026-03-01T19:59:42.766Z] [INFO] Starting login process for Dock26@yahoo.com
+[2026-03-01T19:59:42.767Z] [INFO] Sleeping for 1000ms
+[2026-03-01T19:59:43.772Z] [INFO] Clicking element: .caret
+[2026-03-01T19:59:43.889Z] [INFO] Clicked profile dropdown
+[2026-03-01T19:59:43.890Z] [INFO] Clicking element: a:has-text("Login")
+[2026-03-01T19:59:44.243Z] [INFO] Clicked login link
+[2026-03-01T19:59:44.245Z] [INFO] Filling element #input-email with text: Dock26@yahoo.com...
+[2026-03-01T19:59:44.338Z] [INFO] Filling element #input-password with text: ugp3P5JZxVyH...
+[2026-03-01T19:59:44.356Z] [INFO] Sleeping for 200ms
+[2026-03-01T19:59:44.571Z] [INFO] Clicking element: input[value="Login"]
+[2026-03-01T19:59:45.162Z] [INFO] Clicked login button
+[2026-03-01T19:59:45.163Z] [INFO] Login completed for Dock26@yahoo.com
+[2026-03-01T19:59:45.164Z] [INFO] Searching for and adding iMac to cart
+[2026-03-01T19:59:45.166Z] [INFO] Searching for product: iMac
+[2026-03-01T19:59:45.167Z] [INFO] Filling element input[placeholder="Search"] with text: iMac...
+[2026-03-01T19:59:45.213Z] [INFO] Entered search term: iMac
+[2026-03-01T19:59:45.214Z] [INFO] Clicking element: button.btn.btn-default.btn-lg
+[2026-03-01T19:59:45.596Z] [INFO] Clicked search button
+[2026-03-01T19:59:45.597Z] [INFO] Search completed for: iMac
+[2026-03-01T19:59:45.598Z] [INFO] Clicking on first product in search results
+[2026-03-01T19:59:45.598Z] [INFO] Clicking element: div.caption h4 a
+[2026-03-01T19:59:46.059Z] [INFO] Clicked first product
+[2026-03-01T19:59:46.061Z] [INFO] Adding product to cart
+[2026-03-01T19:59:46.063Z] [INFO] Clicking element: #button-cart
+[2026-03-01T19:59:46.475Z] [INFO] Clicked add to cart button
+[2026-03-01T19:59:46.475Z] [INFO] Sleeping for 500ms
+[2026-03-01T19:59:46.980Z] [INFO] Product added to cart
+[2026-03-01T19:59:46.981Z] [INFO] iMac added to cart
+[2026-03-01T19:59:46.982Z] [INFO] Opening shopping cart
+[2026-03-01T19:59:46.983Z] [INFO] Clicking element: .btn.btn-inverse.btn-block.btn-lg.dropdown-toggle
+[2026-03-01T19:59:47.053Z] [INFO] Clicked cart dropdown
+[2026-03-01T19:59:47.055Z] [INFO] Clicking element: body > header:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1) > strong:nth-child(1)
+[2026-03-01T19:59:47.503Z] [INFO] Clicked view cart link
+[2026-03-01T19:59:47.504Z] [INFO] Cart opened
+[2026-03-01T19:59:47.507Z] [INFO] Starting complete checkout process
+[2026-03-01T19:59:47.509Z] [INFO] Proceeding to checkout
+[2026-03-01T19:59:47.512Z] [INFO] Waiting for element to be clickable: a.btn.btn-primary (timeout: 2000ms)
+[2026-03-01T19:59:47.578Z] [INFO] Clicking element: a.btn.btn-primary
+[2026-03-01T19:59:48.161Z] [INFO] Clicked checkout button
+[2026-03-01T19:59:48.161Z] [INFO] Sleeping for 300ms
+[2026-03-01T19:59:48.477Z] [INFO] Filling payment details
+[2026-03-01T19:59:48.479Z] [INFO] Waiting for element to be clickable: #input-payment-firstname (timeout: 2000ms)
+[2026-03-01T19:59:50.593Z] [INFO] ================================================================================
+[2026-03-01T19:59:50.593Z] [INFO] Test execution completed
+[2026-03-01T19:59:50.594Z] [INFO] ================================================================================
+  ✘  5 [chromium] › tests\e2e.spec.js:157:3 › E2E Automation Tests - Registration, Login, Add to Cart, Checkout › 05. Full User Journey - Register, Search, Add to Cart, Checkout (14.4s)
+
+
+  1) [chromium] › tests\e2e.spec.js:116:3 › E2E Automation Tests - Registration, Login, Add to Cart, Checkout › 04. Complete Checkout Process 
+
+    TimeoutError: locator.waitFor: Timeout 2000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('#input-payment-firstname') to be visible[22m
+
+
+       at ..\pages\basePage.js:89
+
+      87 |   async waitForElementToBeClickable(selector, timeout = 2000) {
+      88 |     this.log(`Waiting for element to be clickable: ${selector} (timeout: ${timeout}ms)`);
+    > 89 |     await this.page.locator(selector).waitFor({ state: 'visible', timeout });
+         |                                       ^
+      90 |   }
+      91 |
+      92 |   /**
+        at CheckoutPage.waitForElementToBeClickable (c:\Users\Kostas\Desktop\TestNG-Automation\playwright-tests\pages\basePage.js:89:39)
+        at CheckoutPage.fillPaymentDetails (c:\Users\Kostas\Desktop\TestNG-Automation\playwright-tests\pages\checkoutPage.js:68:16)
+        at CheckoutPage.completeCheckout (c:\Users\Kostas\Desktop\TestNG-Automation\playwright-tests\pages\checkoutPage.js:178:16)
+        at c:\Users\Kostas\Desktop\TestNG-Automation\playwright-tests\tests\e2e.spec.js:151:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\e2e-E2E-Automation-Tests---afeef-4-Complete-Checkout-Process-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\e2e-E2E-Automation-Tests---afeef-4-Complete-Checkout-Process-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\e2e-E2E-Automation-Tests---afeef-4-Complete-Checkout-Process-chromium\error-context.md
+
+  2) [chromium] › tests\e2e.spec.js:157:3 › E2E Automation Tests - Registration, Login, Add to Cart, Checkout › 05. Full User Journey - Register, Search, Add to Cart, Checkout 
+
+    TimeoutError: locator.waitFor: Timeout 2000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('#input-payment-firstname') to be visible[22m
+
+
+       at ..\pages\basePage.js:89
+
+      87 |   async waitForElementToBeClickable(selector, timeout = 2000) {
+      88 |     this.log(`Waiting for element to be clickable: ${selector} (timeout: ${timeout}ms)`);
+    > 89 |     await this.page.locator(selector).waitFor({ state: 'visible', timeout });
+         |                                       ^
+      90 |   }
+      91 |
+      92 |   /**
+        at CheckoutPage.waitForElementToBeClickable (c:\Users\Kostas\Desktop\TestNG-Automation\playwright-tests\pages\basePage.js:89:39)
+        at CheckoutPage.fillPaymentDetails (c:\Users\Kostas\Desktop\TestNG-Automation\playwright-tests\pages\checkoutPage.js:68:16)
+        at CheckoutPage.completeCheckout (c:\Users\Kostas\Desktop\TestNG-Automation\playwright-tests\pages\checkoutPage.js:178:16)
+        at c:\Users\Kostas\Desktop\TestNG-Automation\playwright-tests\tests\e2e.spec.js:192:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\e2e-E2E-Automation-Tests---b7da9-Search-Add-to-Cart-Checkout-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\e2e-E2E-Automation-Tests---b7da9-Search-Add-to-Cart-Checkout-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\e2e-E2E-Automation-Tests---b7da9-Search-Add-to-Cart-Checkout-chromium\error-context.md
+
+  2 failed
+    [chromium] › tests\e2e.spec.js:116:3 › E2E Automation Tests - Registration, Login, Add to Cart, Checkout › 04. Complete Checkout Process 
+    [chromium] › tests\e2e.spec.js:157:3 › E2E Automation Tests - Registration, Login, Add to Cart, Checkout › 05. Full User Journey - Register, Search, Add to Cart, Checkout 
+  3 passed (57.6s)
