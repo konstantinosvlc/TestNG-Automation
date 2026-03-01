@@ -155,7 +155,7 @@ Handles the complete checkout process:
 ## Test Scenarios
 
 ### Test 1: Get Base URL
-Verifies navigation to the base URL
+Verifies navigation to the base URL.
 
 ### Test 2: User Registration and Login
 - Registers a new user with random data
